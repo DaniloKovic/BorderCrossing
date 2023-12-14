@@ -19,14 +19,6 @@ public class LicnoVozilo extends Vozilo {
         LicnoVoziloID = super.getVoziloID();
     }
 
-//    public LicnoVozilo(PolicijskiTerminal pt1, PolicijskiTerminal pt2, CarinskiTerminal ct) throws Exception
-//    {
-//        super(pt1, ct, rand.nextInt(MAX_BROJ_PUTNIKA_LICNO_VOZILO) + 1, PROCESIRANJE_PUTNIKA_LICNO_VOZILO_ms);
-//        _policijskiTerm2 = pt2;
-//
-//        LicnoVoziloID = super.getVoziloID();
-//    }
-
     public void run() {
 
         boolean obradaNaPolicijskom = false;

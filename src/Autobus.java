@@ -18,13 +18,6 @@ public class Autobus extends Vozilo {
         AutobusID = super.getVoziloID();
     }
 
-//    public Autobus(PolicijskiTerminal pt1, PolicijskiTerminal pt2, CarinskiTerminal ct) throws Exception {
-//        super(pt1, ct, rand.nextInt(MAX_BROJ_PUTNIKA_AUTOBUS) + 1, PROCESIRANJE_PUTNIKA_AUTOBUS_ms);
-//        _policijskiTerm2 = pt2;
-//
-//        AutobusID = super.getVoziloID();
-//    }
-
     public void run() {
 
         boolean obradaNaPolicijskom = false;
